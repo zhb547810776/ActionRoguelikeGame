@@ -20,6 +20,9 @@ public:
 
 protected:
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> ProjectileClass;
+
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
 
@@ -28,6 +31,12 @@ protected:
 
 	UFUNCTION()
 	void MoveForward(float MoveValue);
+
+	UFUNCTION()
+	void MoveRight(float MoveValue);
+
+	UFUNCTION()
+	void PrimaryAttack();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

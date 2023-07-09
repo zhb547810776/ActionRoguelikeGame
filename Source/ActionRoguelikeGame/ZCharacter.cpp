@@ -4,6 +4,7 @@
 #include "ZCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AZCharacter::AZCharacter()
@@ -12,11 +13,15 @@ AZCharacter::AZCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComp");
+	SpringArmComp->bUsePawnControlRotation = true;
 	SpringArmComp->SetupAttachment(RootComponent);
 
 	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+
+	bUseControllerRotationYaw = false;
 }
 
 // Called when the game starts or when spawned
@@ -28,7 +33,22 @@ void AZCharacter::BeginPlay()
 
 void AZCharacter::MoveForward(float MoveValue)
 {
-	AddMovementInput(GetActorForwardVector(), MoveValue);
+	FRotator ControllerRot = GetControlRotation();
+	ControllerRot.Pitch = 0;
+	ControllerRot.Roll = 0;
+
+	AddMovementInput(ControllerRot.Vector(), MoveValue);
+}
+
+void AZCharacter::MoveRight(float MoveValue)
+{
+	FRotator ControllerRot = GetControlRotation();
+	ControllerRot.Pitch = 0;
+	ControllerRot.Roll = 0;
+
+	FVector RightVector = FRotationMatrix(ControllerRot).GetScaledAxis(EAxis::Y);
+
+	AddMovementInput(RightVector, MoveValue);
 }
 
 // Called every frame
@@ -44,7 +64,22 @@ void AZCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AZCharacter::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AZCharacter::MoveRight);
 
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookAt", this, &APawn::AddControllerPitchInput);
+
+	PlayerInputComponent->BindAction("PrimaryAttack",IE_Pressed, this, &AZCharacter::PrimaryAttack);
 }
 
+void AZCharacter::PrimaryAttack() 
+{
+	FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+
+	FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
+}
