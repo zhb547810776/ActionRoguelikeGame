@@ -22,10 +22,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* StaticMeshComp;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	URadialForceComponent* RadialForceComp;
 
 	UPROPERTY(EditAnywhere)
