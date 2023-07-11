@@ -1,0 +1,610 @@
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLC\Definitions.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLC\Private\RiderLC.hpp
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\CoreMinimal.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Build.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sal.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\concurrencysal.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\CoreFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\initializer_list
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals_core.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vadefs.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xkeycheck.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstddef
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtr1common
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\new
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\exception
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\crtdbg.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new_debug.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\use_ansi.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\type_traits
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdint
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdint.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstddef
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdlib
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdlib.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\malloc.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_exception.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_terminate.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\errno.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wconio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wctype.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wdirect.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_share.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wprocess.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_wtime.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys/stat.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\sys/types.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\stdio.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdarg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\float.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_memory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.inl.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\setjmp.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\immintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\wmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\nmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\smmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\emmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\zmmintrin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ammintrin.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\tchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\intsafe.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\winapifamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\winpackagefamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\specstrings.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\specstrings_strict.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\specstrings_undef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\sdv_driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\strsafe.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Exec.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IntType.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Models.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Identity.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IntegralConstant.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsClass.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Microsoft/MicrosoftPlatformMath.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Compression.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Array.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Function.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Decay.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Crc.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Char.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\ctype.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\wctype.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Less.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Sort.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Interval.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StringBuilder.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/StringView.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers\StringView.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FrameNumber.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Parse.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Color.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Optional.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Set.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RetainedRef.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/Map.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tuple
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xutility
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\climits
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstring
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\utility
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ColorList.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntVector.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector2D.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/IntRect.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ByteSwap.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\CoreGlobals.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/CulturePointer.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManager.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ArrayView.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/TextKey.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocTesting.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocKeyFuncs.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/LocalizedTextSourceTypes.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/Text.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/StringTableCoreFwd.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/ITextData.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/Internationalization.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Axis.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector4.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/VectorRegister.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathSSE.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/sse_mathfun.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorConstants.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorCommon.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TwoVectors.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Edge.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/ObjectVersion.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Plane.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Sphere.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/CapsuleShape.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Rotator.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RangeBound.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/AutomationEvent.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/Guid.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Range.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RangeSet.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Box.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Box2D.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/BoxSphereBounds.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/OrientedBox.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Matrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Matrix.inl
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationTranslationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationAboutPointMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScaleRotationTranslationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/RotationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Quat.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/PerspectiveMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/OrthoMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TranslationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/QuatRotationTranslationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InverseRotationMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScaleMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/MirrorMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ClipProjectionMatrix.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InterpCurvePoint.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/InterpCurve.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/CurveEdInterface.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float32.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float16.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Float16Color.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Vector2DHalf.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Transform.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ScalarRegister.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformVectorized.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/TransformNonVectorized.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/ConvexHull2d.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnrealMath.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Math/Ray.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/LifetimeDefinition.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\map
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_chrono.hpp
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\time.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\share.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\locale.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\Lifetime.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/xchar.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/xchar.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_set
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\regex
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+D:\VS2019\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\queue
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/ConnectionInfo.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+D:\UE4.27\Project\ActionRoguelikeGame\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Async/Async.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Async/Future.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Event.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformProcess.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProcess.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProcess.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/ScopeLock.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Async/TaskGraphInterfaces.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/LockFreeList.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/NoopCounter.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Stats/Stats.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformTime.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTime.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTime.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Stats\StatsCommon.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Stats/Stats2.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/LowLevelMemTracker.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ChunkedArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/IndirectArray.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\ProfilingDebugging/MiscTrace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Stats\StatsTrace.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/IConsoleManager.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Features/IModularFeature.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Templates/RefCounting.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/LockFreeFixedSizeAllocator.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MemStack.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAffinity.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/IQueuedWork.h
+D:\UE4.27\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/QueuedThreadPool.h
+D:\UE4.27\UE_4.27\Engine\Source\Developer\Windows\LiveCoding\Public\ILiveCodingModule.h
