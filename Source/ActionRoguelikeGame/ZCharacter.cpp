@@ -26,6 +26,8 @@ AZCharacter::AZCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	bUseControllerRotationYaw = false;
+
+	PrimaryAttackDelayTime = 0.2f;
 }
 
 // Called when the game starts or when spawned
@@ -80,6 +82,22 @@ void AZCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void AZCharacter::PrimaryAttack() 
 {
+	PlayAnimMontage(AttackAnim);
+
+	GetWorldTimerManager().SetTimer(TimerHandle_PrimaryAttack, this, &AZCharacter::PrimaryAttack_TimeElapsed, PrimaryAttackDelayTime);
+	
+	// FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+	//
+	// FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+	//
+	// FActorSpawnParameters SpawnParams;
+	// SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	//
+	// GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
+}
+
+void AZCharacter::PrimaryAttack_TimeElapsed()
+{
 	FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
 
 	FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
@@ -89,6 +107,18 @@ void AZCharacter::PrimaryAttack()
 
 	GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
 }
+
+// void AZCharacter::OnPrimaryAttack()
+// {
+// 	FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+//
+// 	FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+//
+// 	FActorSpawnParameters SpawnParams;
+// 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+//
+// 	GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
+// }
 
 void AZCharacter::PrimaryInteract() 
 {
