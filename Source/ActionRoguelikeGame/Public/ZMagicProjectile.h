@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ZProjectile.h"
 #include "GameFramework/Actor.h"
 #include "ZMagicProjectile.generated.h"
 
@@ -11,7 +12,7 @@ class UParticleSystemComponent;
 class UProjectileMovementComponent;
 
 UCLASS()
-class ACTIONROGUELIKEGAME_API AZMagicProjectile : public AActor
+class ACTIONROGUELIKEGAME_API AZMagicProjectile : public AProjectile
 {
 	GENERATED_BODY()
 	
@@ -21,14 +22,14 @@ public:
 
 protected:
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	USphereComponent* SphereComp;
-
-	UPROPERTY(VisibleAnywhere)
-	UParticleSystemComponent* EffectComp;
-
-	UPROPERTY(VisibleAnywhere)
-	UProjectileMovementComponent* MovementComp;
+	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	// USphereComponent* SphereComp;
+	//
+	// UPROPERTY(VisibleAnywhere)
+	// UParticleSystemComponent* EffectComp;
+	//
+	// UPROPERTY(VisibleAnywhere)
+	// UProjectileMovementComponent* MovementComp;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
