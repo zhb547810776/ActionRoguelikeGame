@@ -38,7 +38,7 @@ void AZRedBarrel::BeginPlay()
 
 void AZRedBarrel::RedBarrelExplode(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hello"));
+	//UE_LOG(LogTemp, Warning, TEXT("Hello"));
 	RadialForceComp->FireImpulse();
 }
 
