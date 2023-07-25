@@ -44,20 +44,29 @@ void UZInteractionComponent::PrimaryInteract()
 	ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldDynamic);
 	//ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
 
-	FVector EyeLocation, EndLocation;
+	FVector EyeLocation, EndLocation, ViewLocation, ViewDir;
 	FRotator EyeRotation;
 
 	AActor* ActorOwner = GetOwner();
-	ActorOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
+	APlayerController* CurPC = Cast<APlayerController>(Cast<APawn>(ActorOwner)->Controller);
 
-	EndLocation = EyeLocation + EyeRotation.Vector() * 1000;
+	if(CurPC != nullptr)
+	{
+		CurPC->DeprojectMousePositionToWorld(ViewLocation, ViewDir);
+	}
+	//ActorOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
+
+	//EndLocation = EyeLocation + EyeRotation.Vector() * 1000;
+	EndLocation = ViewLocation + CurPC->GetControlRotation().Vector() * 1000;
 
 	float SphereRaduis = 30.0f;
 	FCollisionShape Shape;
 	Shape.SetSphere(SphereRaduis);
 	
 	//bool bCollideAnything = GetWorld()->LineTraceSingleByObjectType(Hit, EyeLocation, EndLocation, ObjectQueryParams);
-	bool bCollideAnything = GetWorld()->SweepMultiByObjectType(HitList, EyeLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape);
+	//bool bCollideAnything = GetWorld()->SweepMultiByObjectType(HitList, EyeLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape);
+	bool bCollideAnything = GetWorld()->SweepMultiByObjectType(HitList, ViewLocation, EndLocation, FQuat::Identity, ObjectQueryParams, Shape);
+
 	FColor LineColor = bCollideAnything ? FColor::Green : FColor::Red;
 
 	for (FHitResult Hit : HitList)
@@ -76,5 +85,5 @@ void UZInteractionComponent::PrimaryInteract()
 	}
 	
 
-	DrawDebugLine(GetWorld(), EyeLocation, EndLocation, LineColor, false, 2.0f, 0 , 2.0f);
+	DrawDebugLine(GetWorld(), ViewLocation, EndLocation, LineColor, false, 2.0f, 0 , 2.0f);
 }

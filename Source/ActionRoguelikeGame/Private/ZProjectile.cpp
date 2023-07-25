@@ -20,8 +20,14 @@ AProjectile::AProjectile()
 	SphereComp->SetCollisionProfileName("Projectile");
 	RootComponent = SphereComp;
 
+	SphereComp->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::Explode);
+
 	EffectComp = CreateDefaultSubobject<UParticleSystemComponent>("EffectComp");
 	EffectComp->SetupAttachment(SphereComp);
+
+	ExplosionComp = CreateDefaultSubobject<UParticleSystemComponent>("ExplosiontComp");
+	ExplosionComp->SetupAttachment(SphereComp);
+	ExplosionComp->bAutoActivate = false;
 
 	MovementComp = CreateDefaultSubobject<UProjectileMovementComponent>("MovementComp");
 	MovementComp->InitialSpeed = 1000.f;
@@ -44,3 +50,14 @@ void AProjectile::Tick(float DeltaTime)
 
 }
 
+void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if(ExplosionComp->Template != nullptr)
+	{
+		SetActorEnableCollision(false);
+		ExplosionComp->Activate();
+		EffectComp->Deactivate();
+		MovementComp->StopMovementImmediately();
+		InitialLifeSpan = 5.0f;
+	}
+}
