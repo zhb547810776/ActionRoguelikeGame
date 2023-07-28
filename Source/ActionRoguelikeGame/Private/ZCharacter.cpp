@@ -77,6 +77,7 @@ void AZCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("LookAt", this, &APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("PrimaryAttack",IE_Pressed, this, &AZCharacter::PrimaryAttack);
+	PlayerInputComponent->BindAction("BlackHoleAttack",IE_Pressed, this, &AZCharacter::BlackHoleAttack);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("PrimaryInteract", IE_Pressed, this, &AZCharacter::PrimaryInteract);
 }
@@ -150,5 +151,46 @@ void AZCharacter::PrimaryInteract()
 	if(InteractionComp)
 	{
 		InteractionComp->PrimaryInteract();
+	}
+}
+
+void AZCharacter::BlackHoleAttack()
+{
+	PlayAnimMontage(AttackAnim);
+
+	GetWorldTimerManager().SetTimer(TimerHandle_BlackHoleAttack, this, &AZCharacter::BlackHoleAttack_TimeElapsed, BlackHoleAttackDelayTime);
+}
+
+void AZCharacter::BlackHoleAttack_TimeElapsed()
+{
+	FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+
+	APlayerController* CurPC = Cast<APlayerController>(Controller);
+	FVector ViewLocation, ViewDir;
+	CurPC->DeprojectMousePositionToWorld(ViewLocation, ViewDir);
+
+	FHitResult Hit;
+	FCollisionObjectQueryParams ObjectQueryParams;
+	ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldDynamic);
+	ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
+	ObjectQueryParams.AddObjectTypesToQuery(ECC_Pawn);
+	ObjectQueryParams.AddObjectTypesToQuery(ECC_PhysicsBody);
+
+	//DrawDebugLine(GetWorld(), ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, FColor::Blue, false, 2.0f, 0 , 2.0f);
+	
+	GetWorld()->LineTraceSingleByObjectType(Hit, ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, ObjectQueryParams);
+
+	if(Hit.GetActor())
+	{
+		FRotator SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
+        
+		//FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+		FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
+    
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		SpawnParams.Instigator = this;
+    
+		GetWorld()->SpawnActor<AActor>(BlackHoleProjectileClass, SpawnTM, SpawnParams);
 	}
 }

@@ -54,9 +54,10 @@ void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 {
 	if(ExplosionComp->Template != nullptr)
 	{
-		SetActorEnableCollision(false);
+		
 		ExplosionComp->Activate();
 		EffectComp->Deactivate();
+		SetActorEnableCollision(false);
 		MovementComp->StopMovementImmediately();
 		InitialLifeSpan = 5.0f;
 	}

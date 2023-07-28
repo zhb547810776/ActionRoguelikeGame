@@ -27,12 +27,19 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category="Attack")
 	UAnimMontage* AttackAnim;
-	
-	FTimerHandle TimerHandle_PrimaryAttack;
 
 	UPROPERTY(EditAnywhere, Category="Attack")
 	float PrimaryAttackDelayTime;
-
+	
+	UPROPERTY(EditAnywhere, Category="Attack")
+	TSubclassOf<AActor> BlackHoleProjectileClass;
+	
+	UPROPERTY(EditAnywhere, Category="Attack")
+	float BlackHoleAttackDelayTime;
+	
+	FTimerHandle TimerHandle_PrimaryAttack;
+	FTimerHandle TimerHandle_BlackHoleAttack;
+	
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
 
@@ -48,6 +55,12 @@ protected:
 	UFUNCTION()
 	void MoveRight(float MoveValue);
 
+	UFUNCTION()
+	void BlackHoleAttack();
+
+	UFUNCTION()
+	void BlackHoleAttack_TimeElapsed();
+	
 	UFUNCTION()
 	void PrimaryAttack();
 
