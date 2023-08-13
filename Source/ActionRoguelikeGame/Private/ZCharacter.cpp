@@ -117,19 +117,23 @@ void AZCharacter::PrimaryAttack_TimeElapsed()
 	
 	GetWorld()->LineTraceSingleByObjectType(Hit, ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, ObjectQueryParams);
 
+	FRotator SpawnRotation;
 	if(Hit.GetActor())
 	{
-		FRotator SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
-        
-        //FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
-        FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
-    
-        FActorSpawnParameters SpawnParams;
-        SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-        SpawnParams.Instigator = this;
-    
-        GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
+		SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
 	}
+	else
+	{
+		SpawnRotation = ((GetControlRotation().Vector() * 10000 + ViewLocation) - SpawnLocation).Rotation();
+	}
+    //FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+    FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
+
+    FActorSpawnParameters SpawnParams;
+    SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+    SpawnParams.Instigator = this;
+
+    GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParams);
 	
 }
 
@@ -180,17 +184,22 @@ void AZCharacter::BlackHoleAttack_TimeElapsed()
 	
 	GetWorld()->LineTraceSingleByObjectType(Hit, ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, ObjectQueryParams);
 
+	FRotator SpawnRotation;
 	if(Hit.GetActor())
 	{
-		FRotator SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
-        
-		//FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
-		FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
-    
-		FActorSpawnParameters SpawnParams;
-		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-		SpawnParams.Instigator = this;
-    
-		GetWorld()->SpawnActor<AActor>(BlackHoleProjectileClass, SpawnTM, SpawnParams);
+		SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
 	}
+	else
+	{
+		SpawnRotation = ((GetControlRotation().Vector() * 10000 + ViewLocation) - SpawnLocation).Rotation();
+	}
+	//FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
+	FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnParams.Instigator = this;
+
+	GetWorld()->SpawnActor<AActor>(BlackHoleProjectileClass, SpawnTM, SpawnParams);
+	
 }

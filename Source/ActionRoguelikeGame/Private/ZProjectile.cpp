@@ -3,6 +3,7 @@
 
 #include "..\Public\ZProjectile.h"
 #include "Components/SphereComponent.h"
+#include "GameFramework/Character.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
@@ -52,9 +53,14 @@ void AProjectile::Tick(float DeltaTime)
 
 void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if(OtherActor == GetInstigator())
+	{
+		return;
+	}
+	
 	if(ExplosionComp->Template != nullptr)
 	{
-		
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
 		ExplosionComp->Activate();
 		EffectComp->Deactivate();
 		SetActorEnableCollision(false);
