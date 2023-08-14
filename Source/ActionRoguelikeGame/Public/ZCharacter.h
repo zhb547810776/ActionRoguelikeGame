@@ -36,10 +36,17 @@ protected:
 	
 	UPROPERTY(EditAnywhere, Category="Attack")
 	float BlackHoleAttackDelayTime;
+
+	UPROPERTY(EditAnywhere, Category="Attack")
+	TSubclassOf<AActor> TeleportProjectileClass;
+	
+	UPROPERTY(EditAnywhere, Category="Attack")
+	float TeleportAttackDelayTime;
 	
 	FTimerHandle TimerHandle_PrimaryAttack;
 	FTimerHandle TimerHandle_BlackHoleAttack;
-	
+	FTimerHandle TimerHandle_TeleportAttack;
+
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
 
@@ -66,6 +73,12 @@ protected:
 
 	UFUNCTION()
 	void PrimaryAttack_TimeElapsed();
+
+	UFUNCTION()
+	void TeleportAttack();
+
+	UFUNCTION()
+	void TeleportAttack_TimeElapsed();
 
 	// UFUNCTION()
 	// void OnPrimaryAttack();

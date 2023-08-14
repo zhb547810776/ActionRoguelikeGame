@@ -52,7 +52,7 @@ void AZBlackHoleProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AA
 {
 	//Super::Explode(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 	
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
+	//UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
 	if(OtherActor != GetInstigator())
 	{
 		OtherActor->Destroy();

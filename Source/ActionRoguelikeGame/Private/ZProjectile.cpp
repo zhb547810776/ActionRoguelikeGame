@@ -60,7 +60,7 @@ void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 	
 	if(ExplosionComp->Template != nullptr)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
+		//UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
 		ExplosionComp->Activate();
 		EffectComp->Deactivate();
 		SetActorEnableCollision(false);
