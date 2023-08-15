@@ -4,6 +4,7 @@
 #include "ZCharacter.h"
 
 #include "DrawDebugHelpers.h"
+#include "ZAttributeComponent.h"
 #include "ZInteractionComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -23,6 +24,8 @@ AZCharacter::AZCharacter()
 	CameraComp->SetupAttachment(SpringArmComp);
 
 	InteractionComp = CreateDefaultSubobject<UZInteractionComponent>("InteractionComp");
+
+	AttributeComp = CreateDefaultSubobject<UZAttributeComponent>("AttributeComp");
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 

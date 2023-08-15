@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "ZCharacter.generated.h"
 
+class UZAttributeComponent;
 class USpringArmComponent;
 class UCameraComponent;
 class UZInteractionComponent;
@@ -56,12 +57,15 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	UZInteractionComponent* InteractionComp;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UZAttributeComponent* AttributeComp;
+
 	UFUNCTION()
 	void MoveForward(float MoveValue);
 
 	UFUNCTION()
 	void MoveRight(float MoveValue);
-
+ 
 	UFUNCTION()
 	void BlackHoleAttack();
 

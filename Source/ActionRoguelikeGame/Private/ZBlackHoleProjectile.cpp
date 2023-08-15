@@ -30,6 +30,8 @@ AZBlackHoleProjectile::AZBlackHoleProjectile() : AProjectile()
 	//SphereComp->OnComponentBeginOverlap.AddDynamic(this, &AZBlackHoleProjectile::Explode_BlackHole);
 
 	MovementComp->bSweepCollision = true;
+
+	//InitialLifeSpan = 5.0f;
 }
 
 // Called when the game starts or when spawned

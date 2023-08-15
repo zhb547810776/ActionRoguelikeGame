@@ -27,7 +27,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	URadialForceComponent* RadialForceComp;
 	
-	virtual void Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) __override;
+	virtual void Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) override;
 
 public:	
 	// Called every frame
