@@ -2,6 +2,7 @@
 
 
 #include "ZMagicProjectile.h"
+
 // #include "Components/SphereComponent.h"
 // #include "Particles/ParticleSystemComponent.h"
 // #include "GameFramework/ProjectileMovementComponent.h"
@@ -28,6 +29,8 @@ AZMagicProjectile::AZMagicProjectile()
 	// MovementComp->bRotationFollowsVelocity = true;
 	// MovementComp->bInitialVelocityInLocalSpace = true;
 	// MovementComp->ProjectileGravityScale = 0.0f;
+
+	ProjectileDamage = 20.0f;
 }
 
 // Called when the game starts or when spawned
@@ -43,4 +46,9 @@ void AZMagicProjectile::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+// void AZMagicProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+// {
+// 	Super::Explode(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
+// }
 

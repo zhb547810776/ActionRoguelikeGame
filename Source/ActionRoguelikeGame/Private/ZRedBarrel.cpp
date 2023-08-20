@@ -19,6 +19,7 @@ AZRedBarrel::AZRedBarrel()
 	StaticMeshComp->SetStaticMesh(StaticMesh_Barrel);
 	
 	StaticMeshComp->OnComponentHit.AddDynamic(this, &AZRedBarrel::RedBarrelExplode);
+	StaticMeshComp->OnComponentBeginOverlap.AddDynamic(this, &AZRedBarrel::RedBarrelExplode_Overlap);
 
 	RadialForceComp = CreateDefaultSubobject<URadialForceComponent>("RadialForceComp");
 	RadialForceComp->SetupAttachment(StaticMeshComp);
@@ -39,6 +40,11 @@ void AZRedBarrel::BeginPlay()
 void AZRedBarrel::RedBarrelExplode(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	//UE_LOG(LogTemp, Warning, TEXT("Hello"));
+	RadialForceComp->FireImpulse();
+}
+
+void AZRedBarrel::RedBarrelExplode_Overlap( UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
 	RadialForceComp->FireImpulse();
 }
 

@@ -2,6 +2,8 @@
 
 
 #include "..\Public\ZProjectile.h"
+
+#include "ZAttributeComponent.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 #include "Particles/ParticleSystemComponent.h"
@@ -57,14 +59,27 @@ void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 	{
 		return;
 	}
-	
-	if(ExplosionComp->Template != nullptr)
+
+	if(OtherActor)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
-		ExplosionComp->Activate();
-		EffectComp->Deactivate();
-		SetActorEnableCollision(false);
-		MovementComp->StopMovementImmediately();
-		InitialLifeSpan = 5.0f;
+		if(ProjectileDamage > 0)
+		{
+			UZAttributeComponent* AttributeComp = Cast<UZAttributeComponent>(OtherActor->GetComponentByClass(UZAttributeComponent::StaticClass()));
+            if(AttributeComp)
+            {
+            	AttributeComp->ApplyHealthChange(-ProjectileDamage);
+            }
+		}
+
+		if(ExplosionComp->Template != nullptr)
+		{
+			//UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
+			ExplosionComp->Activate();
+			EffectComp->Deactivate();
+			SetActorEnableCollision(false);
+			MovementComp->StopMovementImmediately();
+			InitialLifeSpan = 5.0f;
+		}
 	}
+	
 }
