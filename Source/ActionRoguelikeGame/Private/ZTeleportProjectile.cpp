@@ -3,6 +3,8 @@
 
 #include "ZTeleportProjectile.h"
 
+#include "GameFramework/ProjectileMovementComponent.h"
+
 AZTeleportProjectile::AZTeleportProjectile()
 {
 	TeleportPlayerDelayTime = 0.5;
@@ -30,10 +32,14 @@ void AZTeleportProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AAc
 	}
 	
 	Super::Explode(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
+
+	// SetHidden(true);
+	// MovementComp->StopMovementImmediately();
+	// SetActorEnableCollision(false);
 	
 	GetWorldTimerManager().ClearTimer(TelepoetPlayerHandler);
 	//Teleport Player
-	GetInstigator()->SetActorLocation(GetActorLocation());
+	GetInstigator()->TeleportTo(GetActorLocation(), GetInstigator()->GetActorRotation(), false, false);
 }
 
 void AZTeleportProjectile::TeleportPlayer_TimeElapsed()

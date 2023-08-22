@@ -70,16 +70,16 @@ void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* Othe
             	AttributeComp->ApplyHealthChange(-ProjectileDamage);
             }
 		}
-
-		if(ExplosionComp->Template != nullptr)
-		{
-			//UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
-			ExplosionComp->Activate();
-			EffectComp->Deactivate();
-			SetActorEnableCollision(false);
-			MovementComp->StopMovementImmediately();
-			InitialLifeSpan = 5.0f;
-		}
+	}
+	
+	if(ExplosionComp->Template != nullptr)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("%s"), *OtherActor->GetActorLabel());
+		ExplosionComp->Activate();
+		EffectComp->Deactivate();
+		SetActorEnableCollision(false);
+		MovementComp->StopMovementImmediately();
+		InitialLifeSpan = 5.0f;
 	}
 	
 }

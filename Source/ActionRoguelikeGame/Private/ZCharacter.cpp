@@ -34,6 +34,13 @@ AZCharacter::AZCharacter()
 	PrimaryAttackDelayTime = 0.2f;
 }
 
+void AZCharacter::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	AttributeComp->OnHealthChanged.AddDynamic(this, &AZCharacter::OnHealthChanged);
+}
+
 // Called when the game starts or when spawned
 void AZCharacter::BeginPlay()
 {
@@ -120,17 +127,35 @@ void AZCharacter::PrimaryAttack_TimeElapsed()
 
 	//DrawDebugLine(GetWorld(), ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, FColor::Blue, false, 2.0f, 0 , 2.0f);
 	
-	GetWorld()->LineTraceSingleByObjectType(Hit, ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, ObjectQueryParams);
+	// GetWorld()->LineTraceSingleByObjectType(Hit, ViewLocation, ViewLocation + GetControlRotation().Vector() * 10000, ObjectQueryParams);
+	//
+	// FRotator SpawnRotation;
+	// if(Hit.GetActor())
+	// {
+	// 	SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
+	// }
+	// else
+	// {
+	// 	SpawnRotation = ((GetControlRotation().Vector() * 10000 + ViewLocation) - SpawnLocation).Rotation();
+	// }
 
-	FRotator SpawnRotation;
-	if(Hit.GetActor())
+	FCollisionShape Shape;
+	Shape.SetSphere(20.0f);
+
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+
+	FVector TraceStart = CameraComp->GetComponentLocation();
+
+	FVector TraceEnd = TraceStart + GetController()->GetControlRotation().Vector() * 5000;
+
+	if(GetWorld()->SweepSingleByObjectType(Hit, TraceStart, TraceEnd, FQuat::Identity, ObjectQueryParams, Shape, Params))
 	{
-		SpawnRotation = (Hit.Location - SpawnLocation).Rotation();
+		TraceEnd = Hit.ImpactPoint;
 	}
-	else
-	{
-		SpawnRotation = ((GetControlRotation().Vector() * 10000 + ViewLocation) - SpawnLocation).Rotation();
-	}
+
+	FRotator SpawnRotation = FRotationMatrix::MakeFromX(TraceEnd - SpawnLocation).Rotator();
+	
     //FTransform SpawnTM = FTransform(GetControlRotation(), SpawnLocation);
     FTransform SpawnTM = FTransform(SpawnRotation, SpawnLocation);
 
@@ -255,3 +280,12 @@ void AZCharacter::TeleportAttack_TimeElapsed()
 	
 }
 
+void AZCharacter::OnHealthChanged(AActor* InstigatorActor, UZAttributeComponent* OwningComp, float NewHealth, float ChangedHealth)
+{
+	if(NewHealth <= 0 && ChangedHealth < 0)
+	{
+		APlayerController* PC = Cast<APlayerController>(GetController());
+		
+		DisableInput(PC);
+	}
+}

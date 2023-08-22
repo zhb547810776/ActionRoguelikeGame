@@ -3,6 +3,11 @@
 
 #include "ZAttributeComponent.h"
 
+bool UZAttributeComponent::IsAlive() const
+{
+	return Health > 0;
+}
+
 // Sets default values for this component's properties
 UZAttributeComponent::UZAttributeComponent()
 {
