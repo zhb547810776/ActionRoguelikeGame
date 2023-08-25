@@ -282,6 +282,11 @@ void AZCharacter::TeleportAttack_TimeElapsed()
 
 void AZCharacter::OnHealthChanged(AActor* InstigatorActor, UZAttributeComponent* OwningComp, float NewHealth, float ChangedHealth)
 {
+	if(ChangedHealth < 0 && NewHealth - ChangedHealth > 0)
+	{
+		GetMesh()->SetScalarParameterValueOnMaterials("TimeToHit", GetWorld()->TimeSeconds);
+	}
+	
 	if(NewHealth <= 0 && ChangedHealth < 0)
 	{
 		APlayerController* PC = Cast<APlayerController>(GetController());

@@ -9,6 +9,7 @@
 class USphereComponent;
 class UParticleSystemComponent;
 class UProjectileMovementComponent;
+class UAudioComponent;
 
 UCLASS()
 class ACTIONROGUELIKEGAME_API AProjectile : public AActor
@@ -31,6 +32,12 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	UProjectileMovementComponent* MovementComp;
+
+	UPROPERTY(EditAnywhere)
+	UAudioComponent* AudioComp_Loop;
+
+	UPROPERTY(EditAnywhere)
+	UAudioComponent* AudioComp_Impact;
 
 	UFUNCTION(BlueprintCallable)
 	virtual void Explode(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);

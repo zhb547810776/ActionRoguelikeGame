@@ -5,6 +5,7 @@
 
 #include "ZAttributeComponent.h"
 #include "Components/SphereComponent.h"
+#include "Components/AudioComponent.h"
 #include "GameFramework/Character.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
@@ -37,13 +38,22 @@ AProjectile::AProjectile()
 	MovementComp->bRotationFollowsVelocity = true;
 	MovementComp->bInitialVelocityInLocalSpace = true;
 	MovementComp->ProjectileGravityScale = 0.0f;
+
+	AudioComp_Loop = CreateDefaultSubobject<UAudioComponent>("AudioComp_Loop");
+	AudioComp_Loop->bAutoActivate = false;
+	AudioComp_Impact = CreateDefaultSubobject<UAudioComponent>("AudioComp_Impact");
+	AudioComp_Impact->bAutoActivate = false;
 }
 
 // Called when the game starts or when spawned
 void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	if(AudioComp_Loop->Sound)
+	{
+		AudioComp_Loop->Play();
+	}
 }
 
 // Called every frame
@@ -70,6 +80,16 @@ void AProjectile::Explode(UPrimitiveComponent* OverlappedComponent, AActor* Othe
             	AttributeComp->ApplyHealthChange(-ProjectileDamage);
             }
 		}
+	}
+
+	if(AudioComp_Loop->Sound)
+	{
+		AudioComp_Loop->Stop();
+	}
+
+	if(AudioComp_Impact->Sound)
+	{
+		AudioComp_Impact->Play();
 	}
 	
 	if(ExplosionComp->Template != nullptr)

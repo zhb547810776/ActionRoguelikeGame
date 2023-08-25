@@ -11,12 +11,15 @@ bool UZAttributeComponent::IsAlive() const
 // Sets default values for this component's properties
 UZAttributeComponent::UZAttributeComponent()
 {
-	Health = 100;
+	Health = HealthMax;
 }
 
 bool UZAttributeComponent::ApplyHealthChange(float ChangedHealth)
 {
+	//float NewHealth = Health + ChangedHealth;
 	Health += ChangedHealth;
+
+	Health = FMath::Clamp(Health, 0.f, HealthMax);
 
 	OnHealthChanged.Broadcast(nullptr, this, Health, ChangedHealth);
 	
