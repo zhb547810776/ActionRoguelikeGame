@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "ZGamePlayInterface.h"
 #include "GameFramework/Actor.h"
-#include "ZDroppedPickUp.generated.h"
+#include "ZPickUpActor.generated.h"
 
 class UStaticMeshComponent;
 
@@ -24,7 +24,22 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* StaticMeshComp;
+
+	UPROPERTY(EditDefaultsOnly)
+	bool bUseOnce;
+
+	UFUNCTION()
+	virtual bool AffectPawn(APawn* InstigatorPawn);
+
+	FTimerHandle TimerHandle_InteractionHidden;
+
+	UFUNCTION()
+	virtual void ShowSelf_TimeElapsed();
+	
+	UPROPERTY(EditAnywhere)
+	float HiddenTime;
 
 public:	
 	// Called every frame

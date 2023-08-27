@@ -9,6 +9,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 
 // Sets default values
 AZCharacter::AZCharacter()
@@ -26,6 +28,10 @@ AZCharacter::AZCharacter()
 	InteractionComp = CreateDefaultSubobject<UZInteractionComponent>("InteractionComp");
 
 	AttributeComp = CreateDefaultSubobject<UZAttributeComponent>("AttributeComp");
+
+	//ShootProjComp = CreateDefaultSubobject<UParticleSystemComponent>("ShootProjComp");
+	//ShootProjComp->bAutoActivate = false;
+	//ShootProjComp->AttachTo(RootComponent, "Muzzle_01", EAttachLocation::KeepRelativeOffset, false);
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
@@ -113,6 +119,9 @@ void AZCharacter::PrimaryAttack()
 void AZCharacter::PrimaryAttack_TimeElapsed()
 {
 	FVector SpawnLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+
+	//ShootProjComp->Activate();
+	UGameplayStatics::SpawnEmitterAttached(ShootProjTemplate, GetMesh(), "Muzzle_01");
 
 	APlayerController* CurPC = Cast<APlayerController>(Controller);
 	FVector ViewLocation, ViewDir;
@@ -285,6 +294,10 @@ void AZCharacter::OnHealthChanged(AActor* InstigatorActor, UZAttributeComponent*
 	if(ChangedHealth < 0 && NewHealth - ChangedHealth > 0)
 	{
 		GetMesh()->SetScalarParameterValueOnMaterials("TimeToHit", GetWorld()->TimeSeconds);
+		
+		UCameraShakeBase* CameraShakeInstance = CameraShakeClass.GetDefaultObject();
+		
+		UGameplayStatics::PlayWorldCameraShake(this, CameraShakeClass, GetActorLocation(), 0.0f, 100.0f);
 	}
 	
 	if(NewHealth <= 0 && ChangedHealth < 0)

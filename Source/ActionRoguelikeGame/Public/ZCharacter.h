@@ -11,6 +11,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class UZInteractionComponent;
 class UAnimMontage;
+class UParticleSystemComponent;
 
 UCLASS()
 class ACTIONROGUELIKEGAME_API AZCharacter : public ACharacter
@@ -22,6 +23,14 @@ public:
 	AZCharacter();
 
 protected:
+
+	// UPROPERTY(VisibleAnywhere)
+	// UParticleSystemComponent* ShootProjComp;
+	UPROPERTY(EditAnywhere)
+	UParticleSystem* ShootProjTemplate;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UCameraShakeBase> CameraShakeClass;
 
 	UPROPERTY(EditAnywhere, Category="Attack")
 	TSubclassOf<AActor> ProjectileClass;

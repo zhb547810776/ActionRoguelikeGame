@@ -8,6 +8,11 @@ bool UZAttributeComponent::IsAlive() const
 	return Health > 0;
 }
 
+bool UZAttributeComponent::IsFullHealth()
+{
+	return Health == HealthMax;
+}
+
 // Sets default values for this component's properties
 UZAttributeComponent::UZAttributeComponent()
 {
