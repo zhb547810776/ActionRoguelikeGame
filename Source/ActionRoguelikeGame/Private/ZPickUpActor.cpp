@@ -1,25 +1,25 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ZDroppedPickUp.h"
+#include "AZPickUpActor.h"
 
 // Sets default values
-AZDroppedPickUp::AZDroppedPickUp()
+AZPickUpActor::AZDroppedPickUp()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	AZPickUpActor.bCanEverTick = true;
 
 }
 
 // Called when the game starts or when spawned
-void AZDroppedPickUp::BeginPlay()
+void AZPickUpActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AZDroppedPickUp::Tick(float DeltaTime)
+void AZPickUpActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

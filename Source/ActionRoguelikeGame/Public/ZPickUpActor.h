@@ -10,7 +10,7 @@
 class UStaticMeshComponent;
 
 UCLASS()
-class ACTIONROGUELIKEGAME_API AZDroppedPickUp : public AActor, public IZGamePlayInterface
+class ACTIONROGUELIKEGAME_API AZPickUpActor : public AActor, public IZGamePlayInterface
 {
 	GENERATED_BODY()
 
@@ -18,7 +18,7 @@ class ACTIONROGUELIKEGAME_API AZDroppedPickUp : public AActor, public IZGamePlay
 	
 public:	
 	// Sets default values for this actor's properties
-	AZDroppedPickUp();
+	AZPickUpActor();
 
 protected:
 	// Called when the game starts or when spawned
